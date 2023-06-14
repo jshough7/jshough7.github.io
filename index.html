@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>CSCE 102: Project Part 5</title>
+		<!--
+			Jose Shough
+			CSCE 102
+			Section: 001
+			06/13/23
+		-->
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header>
+			<h1>Jose Shough</h1>
+			<nav id="main-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="main-content">
+			<div id="slideshow">
+				<img src="images/screenshot1.png" alt="Html Code" class="visible center" id="work1">
+				<img src="images/screenshot2.png" alt="Javascript Code" class="hidden" id="work2">
+				<img src="images/screenshot3.png" alt="Gamecock Ticket Project" class="hidden" id="work3">
+				<img src="images/screenshot4.png" alt="Javascript and Animations" class="hidden" id="work4">
+				<img src="images/screenshot5.png" alt="Javascript Part 2" class="hidden" id="work5">
+			</div>
+				<h2>About Me</h2>
+				<p class="maintext">I am currently a student at the University of South Carolina. I am a junior who is taking Computer Science 102: General Applications. I am studying biological sciences with the aspiration to become a medical doctor. Additionally, I would identify myself as a military child because I grew up moving around a lot. I was born in Lakenheath, England while my dad was stationed there. Unfortunately, I only lived there a few months, so I can't remember anything about it. I then lived in a few states before moving to Ramstein AB, Germany during my high school years.</p>
+				
+				<p class="maintext hidden" id="showP">I enjoyed living overseas because I had every possible opportunity to travel to nearby countries. My favorite country that I've visited would have to be Spain because of the architecture, food, and culture. During my last two years of high school, I got involved in a technical work program called Health Science. I was able to become a Certified Nursing Assistant and got some experience at Landstuhl Regional Medical Center in Landstuhl, Germany. My teacher always believed that I could become a doctor.</p>
+				<a href="#" onclick="seeMore()" id="expandP">See More...</a>
+				
+				<h2>My Future Career Plans</h2>
+				<p class="maintext">Once I receive my bachelor's degree in biological sciences, I am planning on continuing my education through medical school. Right now, I am in the process of searching for schools and considering my options. I haven't made any plans to go into the military like my dad, but it could be an option for helping me pay for medical school. Anyways, I would like to study orthopedic medicine because I find the bones and muscles to be fascinating systems in the body.  I could also be persuaded to pursue other areas within the medical field.</p>
+				
+				<p class="maintext hidden" id="showP2">After I finish medical school, I am hoping to complete my internship and residency. Then, I would like to become board certified in my state. I would join an established hospital or practice; eventually, I would dive into having my own practice. My other career goals are to get into investing and finances as a side venture. I know this seems like quite a lot of work. However, I believe that I should aim high and work hard for my goals.</p>
+				<a href="#" onclick="seeMore2()" id="expandP2">See More...</a>
+				
+				<h2>What I Learned From Computer Science</h2>
+				<iframe class="center" id="video" width="560" height="315" src="https://www.youtube.com/embed/K-M_imoO6Hk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+		<footer>
+			<p class="foot">&copy;joseshough</p>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>

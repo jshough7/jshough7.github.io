@@ -1,0 +1,211 @@
+/*Structural Elements*/
+
+header {
+		background:#76B3AF;
+		padding:5px;
+}
+
+div {
+		background:#C3FFFC;
+		padding:5px;
+}
+
+main {
+		padding:5px;
+}
+
+#main-content {
+		margin:auto;
+		padding:5px;
+}
+
+footer {
+		background:#76B3AF;
+		padding:5px;
+}
+
+/*Navigation*/
+	#main-nav a {
+		display:block;
+		border-bottom:1px solid black;
+		background:#FCD9B6;
+		text-decoration:none;
+		padding-left:5px;
+		margin:auto;
+	}
+	
+	#main-nav a:hover {
+	background:aqua;
+	}
+
+	#main-nav ul {
+	padding-left:5px;
+	padding-right: 5px;
+	}
+	
+	#main-nav li {
+			list-style-type:none;
+			margin:auto;
+			display:inline;
+}
+	
+/*Typography*/
+
+h1 {
+		color:#DBFFFD;
+		text-align:center;
+}
+
+h2 {
+	text-align:center;
+}
+
+.maintext {
+	width:80%;
+	margin:auto;
+	padding:5px;
+}
+
+.hidden {
+	display:none;
+}
+
+.foot {
+	text-align:center;
+}
+
+.sideH {
+	text-align:center;
+	padding:5px;
+}
+
+.invisible{
+	display:none;	
+}
+
+.center {
+	text-align:center;
+}
+
+#video {
+	padding-bottom:10px;
+}
+
+#central-text {
+		text-align:left;
+		padding:5px;
+		margin:auto;
+}
+
+#expandP {
+	text-align:center;
+	padding-left:115px;
+	margin:auto;
+}
+
+#expandP2 {
+	text-align:center;
+	padding-left:115px;
+	margin:auto;
+}
+
+#button1 {
+	display:block;
+	padding:5px;
+	auto:5px;
+	text-align:center;
+	width:16%;
+}
+
+#box {
+	text-align:left;
+	padding:5px;
+	margin:5px;
+}
+
+#contact {
+	padding:5px;
+	margin:5px;
+}
+
+#centerframe {
+	text-align:center;
+}
+
+#address {
+	padding:5px;
+	margin:5px;
+	text-align:center;
+}
+
+#addressname {
+	padding:5px;
+	margin:5px;
+	text-align:center;
+}
+
+#mapimg {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+/*Images*/
+.center {
+	display:block;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+img {
+	box-shadow: 4px 4px #AAE2C0;
+}
+
+/*Larger Resolutions*/
+
+@media (min-width:720px) {
+	/*Structural Elements*/
+	
+	body {
+		background:#E4E8F9;
+	}
+	/*Navigation*/
+	#main-nav ul {
+			text-align:center;
+	}
+	#main-nav a {
+			display:inline;
+			padding:5px;
+	}
+	#main-nav li {
+			list-style-type:none;
+			margin:auto;
+			display:inline;
+	}
+	
+	/*Columns*/
+	.columns {
+		display:flex;
+	}
+	.column {
+		padding:5px;
+		margin:5px;
+		border:1px solid black;
+	}
+	.one-half {
+		flex:5;
+	}
+}
+
+@media print {
+	header, nav, footer {
+		display:none;
+	}
+	body{
+			font-family:serif;
+	}
+	header, footer, #content {
+			width:100%;
+	}
+}

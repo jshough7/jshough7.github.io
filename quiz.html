@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>CSCE 102: Project Part 4</title>
+		<!--
+			Jose Shough
+			CSCE 102
+			Section: 001
+			06/08/23
+		-->
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header>
+			<h1>Jose Shough</h1>
+			<nav id="main-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="main-content" class="columns">
+			<section class="one-half column">
+			<h2 class="sideH">Website Development Quiz</h2>
+				<p id="central-text">
+					<label for="quiz1">How would you center text in CSS?</label>
+					<select id="quiz1">
+						<option value="false1">display:block;</option>
+						<option value="false2">padding:5px;</option>
+						<option value="true1">text-align:center;</option>
+						<option value="false3">background:#FCD9B6;</option>
+					</select>
+				</p>
+				<p id="central-text">
+					<label for="quiz2">How do you give a &lt;div&gt; a class name?</label>
+					<select id="quiz2">
+						<option value="false4">&lt;div id="name1"&gt;</option>
+						<option value="false5">&lt;div for="name1"&gt;</option>
+						<option value="false6">&lt;div value="name1"&gt;</option>
+						<option value="true2">&lt;div class="name1"&gt;</option>
+					</select>
+				</p>
+				<p id="central-text">
+					<label for="quiz3">How do you remove the class of "hidden" in javascript?</label>
+					<select id="quiz3">
+						<option value="false7">showP.classList.add("hidden");</option>
+						<option value="true3">showP.classList.remove("hidden");</option>
+						<option value="false8">let showP = document.getElementById("hidden");</option>
+						<option value="false9">showP.innerHTML = "hidden";</option>
+					</select>
+				</p>
+				<p id="central-text">
+					<label for="quiz4">What is the correct way to make a table header?</label>
+					<select id="quiz4">
+						<option value="true4">&lt;th&gt;&lt;/th&gt;</option>
+						<option value="false10">&lt;tr&gt;&lt;/tr&gt;</option>
+						<option value="false11">&lt;td&gt;&lt;/td&gt;</option>
+						<option value="false12">&lt;table&gt;&lt;/table&gt;</option>
+					</select>
+				</p>
+				<p id="central-text">
+					<label for="quiz5">How do you create an input type for a checkbox?</label>
+					<select id="quiz5">
+						<option value="false13">&lt;input type="text"&gt;</option>
+						<option value="false14">&lt;input type="number"&gt;</option>
+						<option value="true5">&lt;input type="checkbox"&gt;</option>
+						<option value="false15">&lt;input type="markbox"&gt;</option>
+					</select>
+				</p>
+				<p>
+					<button onclick="showResult()">Submit</button>
+				</p>
+			</section>
+			<section class="one-half column">
+				<h2 class="sideH">Quiz Results</h2>
+					<div id="result" class="invisible">
+						<p id = "result-a"></p>
+						<p id = "result-b"></p>
+						<p id = "result-c"></p>
+						<p id = "result-d"></p>
+						<p id = "result-e"></p>
+						<p id = "score-result"></p>
+					</div>
+		</div>
+		<footer>
+			<p class="foot">&copy;joseshough</p>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>

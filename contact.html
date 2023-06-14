@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>CSCE 102: Project Part 2</title>
+		<!--
+			Jose Shough
+			CSCE 102
+			Section: 001
+			05/31/23
+		-->
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header>
+			<h1>Jose Shough</h1>
+			<nav id="main-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="main-content">
+				<h2>Directions</h2>
+					<h3 id="addressname">Orthopedic Path Clinic</h3>
+						<p id="address">2021 Wayne St.</p>
+						<p id="address">Columbia, SC 29201</p>
+						<div id="centerframe">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13229.287293979742!2d-81.04667210999031!3d34.00994928781318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8a4cc1b888b8f%3A0xd8e8728ebae796a0!2s2021%20Wayne%20St%2C%20Columbia%2C%20SC%2029201!5e0!3m2!1sen!2sus!4v1685639999476!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+						<h3 id="contact">Contact Me</h3>
+						<form action="https://api.web3forms.com/submit" method="POST">
+
+					<input type="hidden" name="access_key" value="4afc0eb5-db86-49c1-aceb-8bf464788005">
+					<p id="box">Name:</p>
+					<input type="text" name="name" required>
+					<p id="box">Email:</p>
+					<input type="email" name="email" required>
+					<p id="box">Message:</p>
+					<textarea name="message" required></textarea>
+					<input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+					<button id="button1" type="submit">Send</button>
+
+				</form>
+		</div>
+		<footer>
+			<p class="foot">&copy;joseshough</p>
+		</footer>
+	</body>
+</html>
